@@ -1,0 +1,5 @@
+templates\usuario\login.html
+templates\veiculos\lista_veiculos.html
+templates\veiculos\registros_veiculos.html
+templates\images\fleetworks.png
+templates\veiculos\homepage.html

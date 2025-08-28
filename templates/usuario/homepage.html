@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        </style>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>Gestão de Frotas</h3>
+            <button class="toggle-btn" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+        </div>
+        <ul class="menu">
+            <li class="menu-item has-submenu">
+                <a href="#" class="menu-link">
+                    <i class="fas fa-car"></i>
+                    <span>Veículos</span>
+                    <i class="fas fa-chevron-right submenu-arrow"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="#">Buscar Veículo</a></li>
+                    <li><a href="#">Cadastrar Veículo</a></li>
+                    <li><a href="#">Listar Veículos Cadastrados</a></li>
+                </ul>
+            </li>
+            <li class="menu-item has-submenu">
+                <a href="#" class="menu-link">
+                    <i class="fas fa-wrench"></i>
+                    <span>Manutenção</span>
+                    <i class="fas fa-chevron-right submenu-arrow"></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="#">Registro de Manutenção</a></li>
+                    <li><a href="#">Histórico de Manutenção</a></li>
+                    <li><a href="#">Buscar Manutenção</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header class="navbar">
+            <h1 class="page-title">Dashboard</h1>
+            <div class="user-info">
+                Bem-vindo(a), Usuário!
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </header>
+
+        <main class="dashboard-grid">
+            <div class="card">
+                <h3>Localização em Tempo Real</h3>
+                <p>Mapa interativo aqui.</p>
+                <img src="fleet_dashboard_background.png" alt="Mapa de localização" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="card">
+                <h3>Consumo de Combustível</h3>
+                <p>Gráfico de consumo aqui.</p>
+            </div>
+            <div class="card">
+                <h3>Manutenção</h3>
+                <p>Status de manutenções aqui.</p>
+            </div>
+            <div class="card">
+                <h3>Taxas de Utilização</h3>
+                <p>Gráfico de utilização aqui.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Veículo</title>
     <style>
@@ -14,15 +15,17 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+           
         }
 
         .container {
+            max-width: 100%;
             background-color: #fff;
-            padding: 30px;
+            padding: 40px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
         }
 
         h1 {
@@ -73,13 +76,23 @@
         .btn-submit:hover {
             background-color: #4cae4c;
         }
+         .img-logo {
+            margin: auto;
+            align-items: center;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            position: sticky;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container">
-        <h1>Cadastro de Veículo</h1>
+        <img  class="img-logo"src="../images/fleetworks.png" alt="Logo";>
+        
+        <h1>Cadastro de Veículos</h1>
         <form action="#" method="post">
 
             <div class="form-group">

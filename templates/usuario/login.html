@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5">
+    <meta http-equiv="refresh" content="2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
@@ -15,6 +16,7 @@
             height: 100vh;
             margin: 0;
         }
+
         .login-container {
             background-color: #fff;
             padding: 40px;
@@ -23,10 +25,12 @@
             width: 350px;
             text-align: center;
         }
+
         .login-container h2 {
             margin-bottom: 24px;
             color: #1c1e21;
         }
+
         .login-form input[type="text"],
         .login-form input[type="password"] {
             width: 100%;
@@ -34,8 +38,10 @@
             margin-bottom: 16px;
             border: 1px solid #ddd;
             border-radius: 6px;
-            box-sizing: border-box; /* Garante que o padding não afete a largura total */
+            box-sizing: border-box;
+            /* Garante que o padding não afete a largura total */
         }
+
         .login-form button {
             width: 100%;
             padding: 12px;
@@ -48,9 +54,11 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         .login-form button:hover {
             background-color: #166fe5;
         }
+
         .login-container a {
             display: block;
             margin-top: 20px;
@@ -58,21 +66,34 @@
             text-decoration: none;
             font-size: 14px;
         }
+
         .login-container a:hover {
             text-decoration: underline;
         }
+
+        .img-logo {
+            margin: auto;
+            align-items: center;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            position: sticky;
+        }
     </style>
 </head>
-<body>
 
+<body>
+     
     <div class="login-container">
+         <img  class="img-logo"src="../images/fleetworks.png" alt="Logo";>
         <h2>Login</h2>
         <form class="login-form" action="#" method="POST">
             <input type="text" id="email" name="email" placeholder="E-mail ou telefone" required>
             <input type="password" id="password" name="password" placeholder="Senha" required>
             <button type="submit">Entrar</button>
-        
+
     </div>
 
 </body>
+
 </html>
