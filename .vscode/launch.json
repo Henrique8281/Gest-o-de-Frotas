@@ -4,11 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
+
+        
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open registro_veiculos.html",
-            "file": "c:\\Users\\HP216342\\Documents\\GitHub\\acs_finder\\acs_finder\\acs_finder\\acs_finder\\acs_finder\\PROJETO\\Gestao_de_Frotas\\Gest-o-de-Frotas\\templates\\veiculos\\registro_veiculos.html"
+            "name": "Open homepage.html",
+            "file": "C://Users//User//Documents//GitHub//Gest-o-de-Frotas//templates//veiculos//registro_veiculos.html"
         }
     ]
 }
