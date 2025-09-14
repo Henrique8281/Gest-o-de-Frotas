@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Manutenções - Gestão de Frotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: #004080;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            margin: auto;
+            align-items: center;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background: #004080;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0066cc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background: #004080;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        .img-logo {
+            margin: auto;
+            align-items: center;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            position: sticky;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section>
+
+        <main>
+            <div >
+                <img class="img-logo"src="../images/fleetworks.jpg" alt="Logo">
+                <h1>Gestão de Frotas</h1>
+            </div>
+            <h2>Lista de Manutenções</h2>
+            <h3>Filtros</h3>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Pesquisar</legend>
+
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data">
+
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Ex: Onix, Gol...">
+
+                    <button type="submit">Filtrar</button>
+                </fieldset>
+            </form>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Modelo</th>
+                <th>Outras informações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01/09/2025</td>
+                <td>Onix</td>
+                <td>Troca de óleo</td>
+            </tr>
+            <tr>
+                <td>28/08/2025</td>
+                <td>Gol</td>
+                <td>Revisão completa</td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
+
+</body>
+
+</html>

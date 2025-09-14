@@ -22,6 +22,14 @@ def tela_5():
 def tela_6():
     return render_template('/veiculos/registro_manutencao.html')
 
+@app.route('/buscarveiculos')
+def tela_7():
+    return render_template('/manutencao/buscar_veículos.html')
+
+@app.route('/listarmanutencao')
+def tela_8():
+    return render_template('/manutencao/listar_manutenções.html')
+
 if __name__ =='__main__':
     app.run(host="0.0.0.0", port=5000, debug=True)
 
