@@ -1,8 +1,9 @@
-templates\usuario\login.html
-templates\usuario\homepage.html
-templates\veiculos\lista_veiculos.html
-templates\veiculos\registros_veiculos.html
-templates\veiculos\buscar_veículos.html
-templates\images\fleetworks.png
-templates\manutencao\listar_manutenções.html
-
+templates/usuario/login.html
+templates/usuario/homepage.html
+templates/usuario/create.html
+templates/veiculos/lista_veiculos.html
+templates/veiculos/registros_veiculos.html
+templates/veiculos/buscar_veículos.html
+templates/images/fleetworks.png
+templates/manutencao/listar_manutenções.html
+templates/manutencao/registro_manutencao.html

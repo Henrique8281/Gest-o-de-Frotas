@@ -1,10 +1,17 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
+from controllers.usuario_controller import *
+if __name__ == "__main__":
+    app.run()
 
 @app.route('/login')
 def tela_um():
     return render_template('/usuario/login.html')
+
+@app.route("/create")
+def inserir():
+    return render_template("/usuario/create.html")
 
 @app.route('/homepage')
 def tela_dois():

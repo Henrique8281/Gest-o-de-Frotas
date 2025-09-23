@@ -12,7 +12,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open homepage.html",
-            "file": "C://Users//User//Documents//GitHub//Gest-o-de-Frotas//templates//veiculos//registro_veiculos.html"
+            "file": "C://Users//User//Documents//GitHub//Gest-o-de-Frotas//templates//manutencao//registro_manutencao.html"
         }
     ]
 }
