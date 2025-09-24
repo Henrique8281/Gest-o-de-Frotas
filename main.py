@@ -2,6 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 from controllers.usuario_controller import *
+from controllers.veiculos_controller import *
 if __name__ == "__main__":
     app.run()
 
@@ -9,7 +10,7 @@ if __name__ == "__main__":
 def tela_um():
     return render_template('/usuario/login.html')
 
-@app.route("/create")
+@app.route("/create", methods=["POST"])
 def inserir2():
     return render_template("/usuario/create.html")
 

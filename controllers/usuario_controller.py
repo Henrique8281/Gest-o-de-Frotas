@@ -5,11 +5,11 @@ from models.usuario_model import *
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 #rotas
-@app.route("/usuario/inserir")
+@app.route("/create")
 def inserir():
     return render_template("usuario/create.html")
 
-@app.route("/usuario")
+@app.route("/usuario" , methods=["POST"])
 def create():
     if request.method == 'POST':
         #Captura os dados enviados pelo formulário
