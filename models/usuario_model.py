@@ -18,4 +18,4 @@ class Usuario(Base):
         self.telefone = telefone
 
 #Criando as tabelas no banco de dados (caso não existam)
-Base.metadata.crate_all(bind=engine)
+Base.metadata.create_all(bind=engine)

@@ -12,7 +12,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open homepage.html",
-            "file": "C://Users//User//Documents//GitHub//Gest-o-de-Frotas//templates//manutencao//registro_manutencao.html"
+            "file": "C://Users//Aluno//Documents//GitHub//Gest-o-de-Frotas//templates//usuario//login.html"
         }
     ]
 }

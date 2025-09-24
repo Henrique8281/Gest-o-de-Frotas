@@ -5,17 +5,17 @@ from controllers.usuario_controller import *
 if __name__ == "__main__":
     app.run()
 
-@app.route('/login')
+@app.route('/')
 def tela_um():
     return render_template('/usuario/login.html')
 
 @app.route("/create")
-def inserir():
+def inserir2():
     return render_template("/usuario/create.html")
 
-@app.route('/homepage')
+@app.route("/homepage" , methods=["POST"])
 def tela_dois():
-    return render_template('/usuario/homepage.html')
+    return render_template('/homepage.html')
 
 @app.route('/lista_veiculos')
 def tela_4():
